@@ -1,0 +1,87 @@
+.bresom{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+main{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+main form{
+    border-style: ridge;
+    border-width: 5px;
+}
+main button{
+    height: 6vh;
+    width: 6vw;
+    border-width: 0px;
+    background-color: white;
+    background-image: url(images/darkmode.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition-property: all; 
+    transition-duration: 0.5s; 
+    transition-timing-function: ease; 
+}
+header p{
+    margin-top: 6%;
+}
+label{
+    display: flex;
+}
+.envoyer{
+    height: 5vh;
+    width: 10vw;
+}
+
+
+
+
+.burger-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+}
+.burger-icon{
+    cursor: pointer;
+}
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu li{
+    padding: 15px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
